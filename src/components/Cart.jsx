@@ -48,6 +48,10 @@ const Cart = () => {
         return arr
     }
 
+    /*
+
+
+    */ 
     const order = () => {
 
         const data = {
@@ -60,7 +64,7 @@ const Cart = () => {
         //success()
         dispatch(resetcart())
         window.location.href = '/ordersuccess'
-       
+
     }
 
     return (
@@ -69,6 +73,7 @@ const Cart = () => {
                 <div className="container">
                     <div className="breadcrumbs">
                         <ol className="breadcrumb">
+
                             <li><a href="#">Home</a></li>
                             <li className="active">Shopping Cart</li>
                         </ol>
@@ -119,8 +124,8 @@ const Cart = () => {
             <section id="do_action">
                 <div className="container">
                     <div className="heading">
-                        
-                         </div>
+
+                    </div>
                     <div className="row">
                         <div className="col-sm-12">
                             <div className="total_area">
