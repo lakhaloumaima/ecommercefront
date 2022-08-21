@@ -1,0 +1,19 @@
+
+.add-todo-button {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(99, 235, 45);
+    color: black;
+    border-radius: 50%;
+    font-size: 25px;
+    margin-top: 8px;
+}
+.close-form {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(235, 45, 45);
+    color: black;
+    border-radius: 50%;
+    font-size: 25px;
+    margin-top: 8px;
+}

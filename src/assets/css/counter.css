@@ -1,0 +1,16 @@
+ .counter {
+     margin: 20px ;
+ }
+ .counter > span {
+     font-size:100px;
+     font-weight: bold;
+ }
+ .counter > div > button {
+     height: 50px;
+     width: 50px;
+     background-color: aqua;
+     border-radius: 50%;
+     margin: 10px;
+     cursor: pointer;
+     font-size: 18px;
+ }
